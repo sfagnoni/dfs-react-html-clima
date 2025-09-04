@@ -24,15 +24,17 @@
         <form>
             <div class="form-group">
                 <label for="username">Usuario:</label>
-                <input type="text" id="username" required>
+                <input type="text" id="username">
+                <span class="error">Este campo es obligatorio</span>
             </div>
 
             <div class="form-group">
                 <label for="password">Contraseña:</label>
-                <input type="password" id="password" required>
+                <input type="password" id="password">
+                <span class="error">Este campo es obligatorio</span>
             </div>
 
-            <button type="submit">Ingresar</button>
+            <button type="submit" disabled=true>Ingresar</button>
 
             
         </form>

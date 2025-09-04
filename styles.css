@@ -197,6 +197,11 @@ button:hover {
     background: #40739e;
 }
 
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
 .register-link, .login-link {
     margin-top: 20px;
     color: #444;
@@ -210,6 +215,13 @@ button:hover {
 
 .register-link a:hover, .login-link a:hover {
     text-decoration: underline;
+}
+
+.error{
+    color: red;
+    font-size: 0.9rem;
+    display: block;
+    margin-top: 5px;
 }
 
 /* Ajuste específico para el contenedor de login/registro */
