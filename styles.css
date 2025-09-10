@@ -184,8 +184,8 @@ header h1 {
     box-shadow: 0 0 5px rgba(39, 60, 117, 0.3);
 }
 
-button {
-    width: 100%;
+button:not(.Toastify__close-button){
+width: 100%;
     padding: 12px 15px;
     background: #273c75;
     color: #fff;
@@ -198,7 +198,7 @@ button {
     margin-top: 10px;
 }
 
-button:hover {
+button:hover:not(.Toastify__close-button) {
     background: #40739e;
 }
 
